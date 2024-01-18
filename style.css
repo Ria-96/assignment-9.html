@@ -1,0 +1,39 @@
+h1{
+    color: violet;
+    font-size: larger;
+    font-weight: lighter;
+    font-style: italic;
+}
+body{
+    background-color: blueviolet;
+    background-image: url(images/let-there-be-sun.webp);
+    background-repeat: repeat;
+}
+l1{
+    color: darkturquoise;
+    font-weight: bold;
+}
+p{
+    line-height: 2;
+    text-align: center;
+    color: rgb(175, 23, 57) ;
+}
+section h1 {
+    color: blue;
+}
+footer p {
+    color: aquamarine;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+div {
+    margin: 0 auto;
+}
+.banner {
+    height: 350px;
+    background-image: url(images/1mo-TunS36a18R0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
