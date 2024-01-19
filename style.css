@@ -9,7 +9,7 @@ body{
     background-color: blueviolet;
     background-image: url(images/let-there-be-sun.webp);
     background-repeat: repeat;
-    margin: 50px;
+    
 }
 l1{
     color: darkturquoise;
@@ -19,6 +19,7 @@ p{
     line-height: 2;
     text-align: center;
     color: rgb(175, 23, 57) ;
+    margin: 15px 0;
 
 }
 section h1 {
@@ -41,10 +42,22 @@ div {
     background-position: center;
 }
 * {
-    /*border: 1px solid red;*/ 
+    /*border: 1px dashed red;*/
     margin: 0;
     line-height: 1;
+    box-sizing: border-box;
 }
-h1, h2 {
+h1, h2,h3 {
     margin-bottom: 20px;
+
+}
+img {
+    border-radius: 3em 1em;
+    height: 300px;
+header {
+    border-bottom: 5px solid grey;
+    padding: 30px;
+}
+.class-name {
+
 }
